@@ -1,0 +1,5 @@
+{"nodes":[{"id":"MainPage","group":1},{"id":"CartCheckout","group":1},
+    {"id":"ListItems","group":1},{"id":"MoreInfo","group":1}],
+"links":[{"source":"MainPage","target":"CartCheckout","value":1},
+        {"source":"MainPage","target":"ListItems","value":8},
+        {"source":"ListItems","target":"MoreInfo","value":10}]}
