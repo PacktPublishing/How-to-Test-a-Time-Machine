@@ -34,23 +34,29 @@ class simpleExploratoryRandomTesting:
         if (node.count == -1):
             node.count=0
             for a in driver.find_elements(By.TAG_NAME,'a'):
+                # we only get the ones with packtput.com on them to be new nodes
                 if("packtpub.com" in node.url):
                     node.count=node.count+1
                     href = a.get_attribute('href')
                     node.actions[href]=a.get_dom_attribute('href')
+        # iterate through the actions randomly and visit them
         while node.count > 0:
-            # randomly get one
+            # randomly get one – then append to acted and remove a count
             suburl = self.randomGetOne(node.actions, node.acted)
             node.acted.append(suburl)
             node.count = node.count - 1
+            # create a new subnode
             subnode = nodeClass.nodeClass(suburl)
             if (subnode not in visited):
                 print("Visiting " + subnode.url + ". . .")
                 self.tryClick('//a[@href="'+node.actions[suburl]+'"]', driver, driver)
                 driver.implicitly_wait(5)
+                # repeat the process for this subnode
                 self.simpleExploratoryRandomTesting(subnode, visited, currentLevel, driver)
+                # close any opened tabs
                 if len(driver.window_handles) > 1:
                     driver.close()
+            # verify we havent reached the max of actions taken, so the algorithm does not take too long
             if (currentLevel>=self.topLevel):
                 sys.exit("Max visits reached")
             print("going back. . .")
