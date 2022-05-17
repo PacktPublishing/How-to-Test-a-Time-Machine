@@ -1,0 +1,11 @@
+{
+  "description":"Testcase 1", 
+  "type": "object",
+  "title":"a title",
+  "id":"1",
+  "description":"a desc",
+  "priority":"1",
+  "steps":["one step"],
+  "expected":"passes"
+}
+    

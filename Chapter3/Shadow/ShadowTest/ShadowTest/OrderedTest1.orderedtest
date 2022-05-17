@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest1" storage="c:\users\noemi\documents\projectos\book\testing-time-machines\chapter3\shadow\shadowtest\shadowtest\orderedtest1.orderedtest" id="2aabe51c-3ce7-478b-a40a-d732c89c08c3" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="1098b2a9-99d1-8c2c-115f-379c7649c0f8" name="TestTrue" storage="bin\debug\shadowtest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
