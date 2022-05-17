@@ -1,0 +1,13 @@
+{
+    "description":"Testcase", 
+    "type": "object",
+    "properties": {
+      "title":{"type":"string"},
+      "description":{"type":"string"},
+      "id":{"type":"string"},
+      "priority":{"type":"string"},
+      "steps": {"type":"array"},
+      "expected":{"type":"string"}
+    },
+	"required": [ "title", "description", "id" ]
+}
