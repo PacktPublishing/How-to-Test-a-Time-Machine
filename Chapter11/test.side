@@ -1,0 +1,84 @@
+{
+  "id": "7ed170d1-1285-429e-97b9-d83d3cf3a1b7",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.packtpub.com",
+  "tests": [{
+    "id": "98adb08f-52e7-48d7-a795-a8fd0ac46331",
+    "name": "Untitled",
+    "commands": [{
+      "id": "facef1c1-1543-427e-b23a-55ae3bb66b7b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef8a4083-27e6-4bf4-b009-d3bf1e4519ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b005e96-7a32-48c1-ae80-2b72580f06ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=__BVID__217__BV_toggle_",
+      "targets": [
+        ["id=__BVID__217__BV_toggle_", "id"],
+        ["css=#\\__BVID__217__BV_toggle_", "css:finder"],
+        ["xpath=//a[@id='__BVID__217__BV_toggle_']", "xpath:attributes"],
+        ["xpath=//li[@id='__BVID__217']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb485b3-28c1-42ee-99cf-df2d316f544f",
+      "comment": "",
+      "command": "click",
+      "target": "id=__BVID__217__BV_toggle_",
+      "targets": [
+        ["id=__BVID__217__BV_toggle_", "id"],
+        ["css=#\\__BVID__217__BV_toggle_", "css:finder"],
+        ["xpath=//a[@id='__BVID__217__BV_toggle_']", "xpath:attributes"],
+        ["xpath=//li[@id='__BVID__217']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77c4aa7-72dd-4a90-9668-a3828627484a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=__BVID__217__BV_toggle_",
+      "targets": [
+        ["id=__BVID__217__BV_toggle_", "id"],
+        ["css=#\\__BVID__217__BV_toggle_", "css:finder"],
+        ["xpath=//a[@id='__BVID__217__BV_toggle_']", "xpath:attributes"],
+        ["xpath=//li[@id='__BVID__217']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ed7968e-5300-48a5-aff0-3194e932eaec",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "59763616-8e30-4cb7-b279-bf782e0c6b1b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["98adb08f-52e7-48d7-a795-a8fd0ac46331"]
+  }],
+  "urls": ["https://www.packtpub.com/"],
+  "plugins": []
+}
