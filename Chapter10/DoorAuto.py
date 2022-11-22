@@ -20,7 +20,7 @@ position = poco('Door').attr('position')
 vr.rotateObject(-10, 0, 0, 'XRig', 'Camera Offset', 0.5) 
 vr.objectLookAt('Door', 'XRig', 'Camera Offset', 5) 
 count = 0 
-while(!vr.checkIfUnityFinished() && count < 10): 
+while(vr.checkIfUnityFinished() == False and count < 10): 
     time.sleep(2) 
     count = count + 1 
 poco.click() 
