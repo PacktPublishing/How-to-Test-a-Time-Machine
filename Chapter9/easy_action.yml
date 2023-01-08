@@ -1,0 +1,14 @@
+name: EasyAction
+on:
+  issues:
+    types: [opened]
+jobs:
+  newJob:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+    - uses: actions/first-interaction@v1
+    - with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Easy action triggered'

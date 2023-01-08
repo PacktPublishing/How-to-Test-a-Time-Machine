@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src", "tst"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "./lib/*.jar", "lib/**/*.jar", "./lib/**/*.jar", "./lib"
+    ],
+    "java.dependency.packagePresentation": "flat",
+    "java.dependency.syncWithFolderExplorer": true
+}

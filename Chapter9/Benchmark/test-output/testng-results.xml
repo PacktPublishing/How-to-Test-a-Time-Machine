@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="group parallel suite" duration-ms="106" started-at="2022-03-05T23:02:24 CET" finished-at="2022-03-05T23:02:24 CET">
+    <groups>
+      <group name="group2">
+        <method signature="Benchmark.test2Time()[pri:0, instance:testingTimeMachines.chapter9.Benchmark@25a98f]" name="test2Time" class="testingTimeMachines.chapter9.Benchmark"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="Benchmark.test1Time()[pri:0, instance:testingTimeMachines.chapter9.Benchmark@3f4d3d]" name="test1Time" class="testingTimeMachines.chapter9.Benchmark"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Group1 tests" duration-ms="56" started-at="2022-03-05T23:02:24 CET" finished-at="2022-03-05T23:02:24 CET">
+      <class name="testingTimeMachines.chapter9.Benchmark">
+        <test-method status="PASS" signature="test1Time()[pri:0, instance:testingTimeMachines.chapter9.Benchmark@3f4d3d]" name="test1Time" duration-ms="3" started-at="2022-03-05T23:02:24 CET" finished-at="2022-03-05T23:02:24 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1Time -->
+      </class> <!-- testingTimeMachines.chapter9.Benchmark -->
+    </test> <!-- Group1 tests -->
+    <test name="Group2 tests" duration-ms="3" started-at="2022-03-05T23:02:24 CET" finished-at="2022-03-05T23:02:24 CET">
+      <class name="testingTimeMachines.chapter9.Benchmark">
+        <test-method status="PASS" signature="test2Time()[pri:0, instance:testingTimeMachines.chapter9.Benchmark@25a98f]" name="test2Time" duration-ms="1" started-at="2022-03-05T23:02:24 CET" finished-at="2022-03-05T23:02:24 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2Time -->
+      </class> <!-- testingTimeMachines.chapter9.Benchmark -->
+    </test> <!-- Group2 tests -->
+  </suite> <!-- group parallel suite -->
+</testng-results>

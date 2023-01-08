@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="group parallel suite" verbose="1" > 
+  <test name="Group1 tests" parallel="methods" > 
+    <groups> 
+         <run> 
+            <include name = "group1" /> 
+         </run> 
+      </groups> 
+    <classes>
+      <class name="testingTimeMachines.chapter9.Benchmark" />
+    </classes>
+</test> 
+<test name="Group2 tests" parallel="methods" > 
+    <groups> 
+         <run> 
+            <include name = "group2" /> 
+         </run> 
+      </groups> 
+          <classes>
+      <class name="testingTimeMachines.chapter9.Benchmark" />
+    </classes>
+</test> 
+</suite> 

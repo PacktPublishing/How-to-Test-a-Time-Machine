@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parallel benchmark suite" verbose="1" time-out="0">
+  <test name="benchmark suite tests" parallel="methods">
+    <classes>
+      <class name="Benchmark2.Benchmark" />
+    </classes>
+  </test>
+</suite>

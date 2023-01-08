@@ -1,0 +1,4 @@
+{
+    "name": "myConfiguration",
+    "workingDirectory": "${app}"
+}
