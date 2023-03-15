@@ -1,0 +1,13 @@
+Steps:
+- task:
+  name: cloneRepo
+  log: Cloning repository
+  instruction: git clone https://github.com/PacktPublishing/Testing-Time-Machines.git && git init && git fetch
+- task:
+  name: pullingRepo
+  log: Pulling repository...
+  instruction: cd Testing-Time-Machines && git pull
+- task:
+  name: executeTests
+  log: Executing tests...
+  instruction: '"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe"  Testing-Time-Machines\Chapter06\UnitTestProject1.dll > Testing-Time-Machines\Chapter06\TestOutput.txt'
