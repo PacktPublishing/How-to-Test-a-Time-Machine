@@ -76,3 +76,8 @@ is a self-taught programmer and wrote her first comprehensive program at the age
 She is an international speaker and participates in the testing community conferences (such as selenium, appium and automation guilds) and engages with the community through slack channels, Twitter, and her blog.
 In the 2020 test guilds publication, she was named one of the top 28 test engineers to follow, as well as one of the top 33 test automation leaders to follow in the 2019 techbeacon.
 
+
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801817028">https://packt.link/free-ebook/9781801817028 </a> </p>
