@@ -1,4 +1,4 @@
-# How to Test a Time Machine.
+# How to Test a Time Machine
 
 <a href="https://www.packtpub.com/product/how-to-test-a-time-machine/9781801817028"><img src="https://content.packt.com/B17527/cover_image_small.jpg" alt="How to Test a Time Machine." height="256px" align="right"></a>
 
@@ -9,7 +9,7 @@ This is the code repository for [How to Test a Time Machine](https://www.packtpu
 ## What is this book about?
 From simple websites to complex applications, delivering quality is crucial for achieving customer satisfaction. How to Test a Time Machine provides step-by-step explanations of essential concepts and practical examples to show you how you can leverage your company's test architecture from different points in the development life cycle.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features: 
 * Identify quality maturity levels and processes to step up your product quality
 * Develop the ability to think outside the box when testing methodologies
 * Examine the various types of tests and their applications from an unconventional perspective
