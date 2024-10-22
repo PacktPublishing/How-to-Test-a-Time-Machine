@@ -1,6 +1,6 @@
 # How to Test a Time Machine
 
-<a href="https://www.packtpub.com/product/how-to-test-a-time-machine/9781801817028"><img src="https://content.packt.com/B17527/cover_image_small.jpg" alt="How to Test a Time Machine." height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/how-to-test-a-time-machine/9781801817028"><img src="https://content.packt.com/_/image/original/B17527/cover_image.jpg" alt="How to Test a Time Machine." height="256px" align="right"></a>
 
 This is the code repository for [How to Test a Time Machine](https://www.packtpub.com/product/how-to-test-a-time-machine/9781801817028), published by Packt.
 
